@@ -19,7 +19,7 @@ public class imagesAdapter extends RecyclerView.Adapter<imagesAdapter.ViewHolder
 
     private Context context;
     private LayoutInflater layoutInflater;
-    private Integer [] images = {R.drawable.capture,
+    static Integer [] images = {R.drawable.capture,
             R.drawable.capture1,
             R.drawable.capture2,
             R.drawable.capture3,
